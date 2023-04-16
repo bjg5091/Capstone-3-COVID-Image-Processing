@@ -1,28 +1,24 @@
-## Capstone-2
-# Determining Most Entertaining NBA Games
+## Capstone-3
+# COVID-19 Radiography Dataset Analysis
 
-By evaluating player and team data from the 2020 NBA season I created an algorithm that would determine what game is likely to have the closest score for any given night
-during the season
+With a dataset of over 20,000 chest X-ray images I created an image processing model that can accurately predict whether a patient has COVID-19,
+COPD, pneumonia, or is healthy.
 
 Project Organization
 ------------
 
-    ├── Notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    |   ├── Brett Gordon - Capstone #2 - Data Wrangling.ipynb
-    |   ├── Brett Gordon - Capstone #2 - EDA.ipynb
-    |   ├── Brett Gordon - Capstone #2 - Modeling.ipynb
-    |   |── Brett Gordon - Capstone #2 - Preprocessing.ipynb
+    ├── Notebooks          <- Google Colab notebooks. Naming convention is a number (for ordering),
+    |   ├── Brett Gordon - Capstone #3 - Data Wrangling.ipynb
+    |   ├── Brett Gordon - Capstone #3 - Modeling with ResNet50.ipynb
+    |   ├── Brett Gordon - Capstone #3 - Modeling with VGG16.ipynb
+    |   |── Brett Gordon - Capstone #3 - Triple Layer Model.ipynb
+    |   ├── Brett Gordon - Capstone #3 - Modeling with VGG19.ipynb   <- Final Model
     │
     ├── Reports
-    │   ├── Capstone #2 Project Proposal - Brett Gordon.pdf
-    │   ├── Capstone 2 Final Report.pdf
+    │   ├── Capstone #3 Project Proposal - Brett Gordon.pdf
+    │   ├── Capstone 3 Final Report.pdf
     |
     ├── data
-    │   └── raw            <- The original, immutable data dump.
-    │       └── game
-    │       └── modern_RAPTOR_by_player.csv
-    │       └── player
-    │       └── team
-    │       └── total
+    │   └── metadata.csv            <- The original, immutable data dump.
     |
     ├── README.md          <- The top-level README for developers using this project.
