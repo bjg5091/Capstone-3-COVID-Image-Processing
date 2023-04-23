@@ -17,6 +17,7 @@ Project Organization
     ├── Reports
     │   ├── Capstone #3 Project Proposal - Brett Gordon.pdf
     │   ├── Capstone 3 Final Report.pdf
+    |   ├── Capstone 3 Presentation.pptx
     |
     ├── data
     │   └── metadata.csv            <- The original, immutable data dump.
